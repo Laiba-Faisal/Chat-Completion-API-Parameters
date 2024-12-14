@@ -88,15 +88,14 @@ The OPENAI CHAT COMPLETION API includes 8 parameters
 }
 
 ---
-### **Response**
+**Response**
 - The model will use the "gpt-3.5-turbo" engine.
 - It considers the context ("You are a math tutor").
 - It generates 2 deterministic responses (low temperature) within 50 tokens.
 - The response is not streamed but sent as a complete answer.
 
 ---
-
-### **Mnemonic to Memorize Them**  
+**Mnemonic to Memorize Them**  
 To remember these parameters easily, use the following mnemonic:  
 **"My Magnificent Model Makes The Top-notch Streams True."**
 
