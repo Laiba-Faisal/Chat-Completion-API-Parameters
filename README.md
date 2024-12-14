@@ -95,6 +95,7 @@ The OPENAI CHAT COMPLETION API includes 8 parameters
   
 }```
 
+---
 **Response**
 * The model will use the "gpt-3.5-turbo" engine.
 * It considers the context ("You are a math tutor").
