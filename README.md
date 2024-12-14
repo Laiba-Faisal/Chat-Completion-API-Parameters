@@ -73,7 +73,7 @@ The OPENAI CHAT COMPLETION API includes 8 parameters
 ---
 **Practical Useage Example**
 
-`{
+```{
   "model": "gpt-3.5-turbo",
   
   "messages": [
@@ -93,7 +93,7 @@ The OPENAI CHAT COMPLETION API includes 8 parameters
   
   "stream": false
   
-}`
+}```
 
 **Response**
 * The model will use the "gpt-3.5-turbo" engine.
