@@ -72,6 +72,7 @@ The OPENAI CHAT COMPLETION API includes 8 parameters
    * **Example:** `''tools'': [''code-interpreter'']`
 ---
 **Practical Useage Example**
+
 `{
   "model": "gpt-3.5-turbo",
   
