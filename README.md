@@ -1,4 +1,5 @@
-#Assignment: Understanding and using OPENAI Chat-Completion-API-Parameters
+# Assignment: Understanding and using OPENAI Chat-Completion-API-Parameters
+
 Large language models (LLMs) like OPENAI's GPT use configurable **parameters** to control their behavior and customize responses. 
 **#How many OPENAI parameters are there?**
 The OPENAI CHAT COMPLETION API includes 8 parameters
