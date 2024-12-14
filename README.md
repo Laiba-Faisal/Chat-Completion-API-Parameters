@@ -71,23 +71,6 @@ The OPENAI CHAT COMPLETION API includes 8 parameters
    * **Default value:** `None`
    * **Example:** `''tools'': [''code-interpreter'']`
 ---
-## **Practical Usage Example**
-
-```json
-{
-  "model": "gpt-3.5-turbo",
-  "messages": [
-    {"role": "system", "content": "You are a math tutor."},
-    {"role": "user", "content": "What is the square root of 144?"}
-  ],
-  "max_tokens": 50,
-  "n": 2,
-  "temperature": 0.3,
-  "top_p": 1.0,
-  "stream": false
-}
-
----
 **Response**
 - The model will use the "gpt-3.5-turbo" engine.
 - It considers the context ("You are a math tutor").
@@ -109,3 +92,19 @@ Here’s how it maps to the parameters:
 - **N**: `n`  
 - **S**: `stream`  
 - **T**: `tools`  
+
+# **Practical Usage Example**
+
+```json
+{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {"role": "system", "content": "You are a math tutor."},
+    {"role": "user", "content": "What is the square root of 144?"}
+  ],
+  "max_tokens": 50,
+  "n": 2,
+  "temperature": 0.3,
+  "top_p": 1.0,
+  "stream": false
+}
